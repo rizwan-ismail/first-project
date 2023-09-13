@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Lato', sans-serif;    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400; 
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+input:not(input[type="submit"]), select, textarea{
+    width: 73%;
+    padding: 5px 10px;
+    min-height: 30px;
+    margin-top: 8px;
+}
+img{
+    display: block;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+ul,ol{
+    list-style: none;
+}
+p{
+    font-size: 16px;
+}
+#header{
+    background:black ;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+#header li{
+   display: inline-block;
+}
+.header-box{
+    width: 80%;
+    float: left;
+    padding-left: 25px;
+}
+
+.header-box a{
+    color: white;
+    font-size: 12px;
+}
+.header-box .fa-caret-down{
+         margin-left: 5px;
+}
+.header-box a:hover{
+    background: gray;
+    color: white;
+    width: 100%;
+}
+.header-box nav ul li a{
+    padding: 15px 20px;
+    text-align: center;
+    display: block;
+}
+.search-box{
+   float: left;
+   width: 200px;
+}
+.search-box button:hover{
+    background: red;
+    color: white;
+
+}
+.search-form button{
+   background: black;
+   color: white;
+   padding: 7px;
+}
+.textlogo{
+    text-align: center;
+    margin: 20px 0px 25px 0px;
+    font-size: 13px;
+    color: gray;
+}
+.hero-section img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.band-grid{
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+.band-post{
+    width: 150px;
+    float: left;
+    margin: 50px 3px 0px 75px;
+    text-align: center;
+    font-size: 12px;
+}
+.band-post h3{
+    margin-bottom: 20px;
+}
+.tourdates{
+    text-align: center;
+}
+.hero-section{
+    background-image: url("../image/la.jpg");
+    min-height: 550px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paragra{
+    text-align: center;
+    margin: 30px 310px 0px 310px;
+    font-size: 15px;
+    font-style: italic;
+}
+.band-header{
+    text-align: center;
+}
+.band-header h2{
+    margin: 60px 0px 20px 0px ;
+}
+.band-paragraf{
+    color: gray;
+}
+.her-content{
+    text-align: center;
+    margin-bottom: 30px;
+    position: absolute;
+    bottom: 0px;
+    left: 38%;
+    color: white;
+}
+.her-content h1{
+    margin-bottom: 10px ;
+}
+.tourdates{
+    color: white;
+    padding-top: 60px;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+.box{
+    width: 100%;
+    height: 700px;
+    background: black;
+}
+.tourbajes{
+    width: 57%;
+    background: white;
+    margin-left: 299px;
+}
+.tour-monthy{
+    border: 1px solid black;
+    width: 100%;
+    padding: 5px 0px 6px 11px;
+    color: gray;
+    position: relative;
+}
+.icon-3{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 0px 5px 2px 5px;
+    background: black;
+    color: white;
+    position: absolute;
+    right: 10px;
+}
+.badge{
+    color:white;
+    background: red;
+    font-size: 12px;
+    margin-left: 15px;
+    padding: 3px 5px 3px 5px;
+}
+.post{
+    width: 250px;
+    height: 350px;
+    background: white;
+    border: 2px solid black;
+    float: left;
+    margin: 20px -289px 65px 298px;
+}
+.post-header{
+    font-size: 18px;
+    margin: 20px 0px 15px 10px;
+}
+.para{
+    font-size: 13px;
+    margin: 0px 20px 10px 13px;
+}
+.button{
+    background: black;
+    color: white;
+    margin-left: 10px;
+    font-size: 12px;
+    font-family: emoji;
+    padding: 3px 10px 3px 10px;
+}
+.Date{
+    font-size: 10px;
+    margin:0px 0px 13px 10px;
+}
+.hading{
+    
+    text-align: center;
+    margin: 50px 0px 25px 0px;
+}
+.button2{
+    color:white;
+    background: black;
+    float: right;
+    margin: 10px 0px 30px 0px;
+    font-size: 15px;
+    font-family: fangsong;
+    padding: 5px 10px 5px 10px;
+}
+.icon-box{
+    margin-left: auto;
+    margin-right: auto;
+    word-spacing: 10px;
+    font-size: 20px;
+    width: 100%;
+    max-width: 200px;
+}
+.icon-box2{
+    width: 30%;
+    padding-top: 8px;
+    font-size: 12px;
+    float: left;
+    margin-left: 400px;
+} 
+.icon-box2 i{
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding-right: 7px;
+}
+.input{
+    width: 20%;
+    float: left;
+}
+.input input{
+    outline-color: gray;
+}
+ .input .password{
+    width: 50%;
+    float: left;
+    margin: 5px 0px 10px 2px;
+}
+.input .name{
+    width: 45%;
+    float: left;
+    margin: 6px 10px 0px 0px;
+}
+.tours-section{
+    background: black;
+}
+.tour-content{
+    color: white;
+    text-align: center;
+}
+.tour-content p{
+      margin: 30px 0px 35px 0px;
+      color: gray;
+}
+.tour-content h1{
+    padding-top:80px; 
+}
+@media screen and (max-width: 768px) {
+    .hero-section{
+        background-position: center;
+    }
+    .paragra.paragra-2{
+        width: 100%;
+        margin: 15px 0px 0px 0px;
+    }
+    .tourbajes{
+        width: 60%;
+        margin-left: 160px;
+    }
+    .band-post{
+        width:30%;
+    }
+    .post{
+        width: 30%;
+         margin-left:auto;
+         margin-right: auto;
+         margin-left: 158px;
+         margin-top: 5px;
+        }
+    .post.post-2{
+        margin: 5px 0px 0px 5px;
+    }
+    .post.post-3{
+        margin: 365px 0px 170px -345px;
+    }
+    .icon-box2{
+        margin-left: 170px;
+    }
+    .input .password{
+        margin: -30px 0px 11px 100px;
+    }
+    .button2{
+        margin: 7px -23px 30px 0px;
+    }
+    .her-content{
+        left: 31%;
+    }
+  .band-post.band-post-3{
+      margin: 9px 0px 0px 223px;
+    }
+    .header-box-2, .search-box-2{
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+ 
+}
+
+@media screen and (max-width: 425px) {
+    .her-content{
+        left: 70px;
+    }
+    .paragra.paragra-2{
+        width: 60%;
+        margin: 30px 0px 0px 90px;
+    }
+    .tourbajes {
+    width: 60%;
+    margin-left: 90px;
+    margin-bottom: 30px;
+    }
+    .post{
+        width: 51%;
+        margin-left: 105px;
+    }
+    .post.post-2{
+        margin-left: 105px;
+    }
+    .post.post-3{
+        margin: 410px 0px 20px -218px;
+    }
+    .band-post{
+        width: 52%;
+        margin: 25px 0px 0px 101px;
+    }
+
+    .icon-box2{
+        margin-left: 160px;
+        font-size: 10px;
+    }
+    .button2{
+        margin: 5px 0px 30px 0px;
+    }
+    .band-post.band-post-3{
+        margin: 12px 0px 0px 101px;
+    }
+    .input{
+        float: none;
+        width: 51%;
+        margin: 0px 0px 45px 110px;
+    }
+    .header-box nav ul li a{
+        padding: 15px 30px;
+    }
+}
